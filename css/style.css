@@ -2,6 +2,7 @@ body {
     background-color: #f4f4f4;
     font-family: Noto Sans, sans-serif;
     color: white;
+    margin: 0;
 }
 
 .container {
@@ -55,20 +56,22 @@ hr {
     color: #65c365;
     font-family: Gill sans, sans-serif;
 }
+.res p:last-child {
+    margin-bottom: 50px;
+}
 
 footer {
     color: #fff;
     text-transform: capitalize;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: #222;
     width: 100%;
     font-size: 20px;
     letter-spacing: 2px;
-
+    width: 100%;
+    margin: 0;
 }
 footer span {
     text-transform: uppercase;
